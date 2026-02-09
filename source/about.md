@@ -82,10 +82,10 @@ Geneva
 University of Geneva
 
 :::
-:::{grid-item-card}  "Master in Neuroscience"
+:::{grid-item-card}  Master in Neuroscience
 :columns: 9
 
-- Internship in [Patrik Vuilleumier's lab](https://neurocenter-unige.ch/research-groups/patrik-vuilleumier/)
+- Two-year internship in [Patrik Vuilleumier's lab](https://neurocenter-unige.ch/research-groups/patrik-vuilleumier/)
 - Master thesis : "*The pulvinar orchestrates neural dynamics of visual perception*"
 :::
 ::::
@@ -98,7 +98,7 @@ University of Geneva
 
 University of Lausanne
 :::
-:::{grid-item-card}  "Bachelor in Psychology"
+:::{grid-item-card}  Bachelor in Psychology
 :columns: 9
 Minor in Philosophy: mostly Philosophy of Science classes
 :::
@@ -114,7 +114,7 @@ Minor in Philosophy: mostly Philosophy of Science classes
 :columns: 3
 [Vasco Sanz fund](https://vascosanz-fund.com/)
 :::
-:::{grid-item-card}  "*IMPULSION prize*"
+:::{grid-item-card}  *IMPULSION Prize*
 :columns: 9
 Best master thesis of the Geneva's Neuroscience program
 :::
@@ -128,7 +128,7 @@ Best master thesis of the Geneva's Neuroscience program
 :columns: 3
 [UNIGE Neurocenter](https://neurocenter-unige.ch/)
 :::
-:::{grid-item-card}  "*Neurocenter First Year Master student Price*"
+:::{grid-item-card}  *Neurocenter First Year Master student Prize*
 :columns: 9
 Based on scientific performance, autonomy, creativity, dynamism and the number of researchers who suggested the student’s name.
 :::
