@@ -21,9 +21,9 @@ Geneva
 :::
 :::{grid-item-card} Neuroscience PhD Student
 :columns: 9
-
-- Working on the sequential aspect of episodic memory, and the modification of these memories' format over time. 
-- Main techniques : MEG and iEEG
+This research project investigates episodic memory as a temporally structured process, examining how sequences are encoded and how the format of these representations is reshaped (chunked, compressed or abstracted) over time.
+- Brain decoding and cross-frequency coupling with MEG and iEEG data
+- Interest in reconstructing hippocampal activity in MEG signal
 :::
 ::::
 
@@ -64,8 +64,8 @@ Geneva
 :::{grid-item-card} Lab Manager (20%)
 :columns: 9
 
-- Administrative tasks
-- Data acquisition in a Social Stressor setting. TOCHANGE
+- Administrative tasks 
+- Data acquisition within a social stress induction paradigm
 
 :::
 ::::
