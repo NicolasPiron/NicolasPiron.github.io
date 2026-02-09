@@ -2,18 +2,13 @@
 
 List of publication
 
-## About me
+## Papers
 ```{bibliography}
 :filter: False
 :list: bullet
 
-marks2025metaleptic
+desbordes2026temporal
 ```
 
-## About my world
-```{bibliography}
-:filter: False
-:list: bullet
-ardhana2023imagined
-marks2025metaleptic
-```
+## Posters & Talks
+To be added
