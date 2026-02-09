@@ -7,15 +7,13 @@ myst:
     }
 ---
 
-# Welcome to Nicolas Piron website!
+# Welcome to my website!
 
-I am a PhD student in neuroscience.
+I am a PhD student in cognitive neuroscience.
 
 ```{toctree}
 :maxdepth: 2
 :hidden:
 about
 publications
-awards
-top3animals
 ```

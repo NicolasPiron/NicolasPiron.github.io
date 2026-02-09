@@ -1,6 +1,6 @@
 # About Me
 
-Add description
+Description to be added
 
 
 ## Work Experiences
@@ -16,7 +16,7 @@ Add description
 
 [Neurolingo Lab](https://neurocenter-unige.ch/research-groups/nina-kazanina/)
 
-University of Geneva
+Geneva
 
 :::
 :::{grid-item-card} Neuroscience PhD Student
@@ -36,13 +36,13 @@ University of Geneva
 
 [Social Cognition Lab](https://www.unige.ch/fapse/esclab/en)
 
-University of Geneva
+Geneva
 
 :::
-:::{grid-item-card} Teaching Assistant 
+:::{grid-item-card} Teaching Assistant (20%)
 :columns: 9
 
-- *Lab Work: Introduction to EEG analysis*
+- Course title: *Lab Work: Introduction to EEG analysis* (Master level)
 - Trained students in EEG data acquisition and analysis
 - Helped develop an EEG hyperscanning experimental set-up and preprocessing pipeline in Python
 
@@ -58,18 +58,17 @@ University of Geneva
 
 [Behavioral Philanthropy Lab](https://www.unige.ch/BehavioralPhilanthropyLab/)
 
-University of Geneva
+Geneva
 
 :::
-:::{grid-item-card} Lab Manager
+:::{grid-item-card} Lab Manager (20%)
 :columns: 9
 
-- Administrative work
+- Administrative tasks
 - Data acquisition in a Social Stressor setting. TOCHANGE
 
 :::
 ::::
-
 
 
 ## Education
@@ -77,41 +76,60 @@ University of Geneva
 ::::{grid} 4
 :gutter: 1
 
-:::{grid-item-card} 27 - 31
+:::{grid-item-card} 2022 - 2024
 :columns: 3
-Revachol
-:::
-:::{grid-item-card}  "The Kimball"
-:columns: 9
-Intensive training in pinball ring.
-:::
 
+University of Geneva
+
+:::
+:::{grid-item-card}  "Master in Neuroscience"
+:columns: 9
+
+- Internship in [Patrik Vuilleumier's lab](https://neurocenter-unige.ch/research-groups/patrik-vuilleumier/)
+- Master thesis : "*The pulvinar orchestrates neural dynamics of visual perception*"
+:::
 ::::
 
 ::::{grid} 5
 :gutter: 1
 
-:::{grid-item-card} 27 - 31
+:::{grid-item-card} 2018 - 2021
 :columns: 3
-Revachol
-:::
-:::{grid-item-card}  "The Kimball"
-:columns: 9
-Intensive training in pinball ring.
-:::
 
+University of Lausanne
+:::
+:::{grid-item-card}  "Bachelor in Psychology"
+:columns: 9
+Minor in Philosophy: mostly Philosophy of Science classes
+:::
 ::::
+
+
+## Awards
 
 ::::{grid} 6
 :gutter: 1
 
-:::{grid-item-card} 27 - 31
+:::{grid-item-card} 2024
 :columns: 3
-Revachol
+[Vasco Sanz fund](https://vascosanz-fund.com/)
 :::
-:::{grid-item-card}  "The Kimball"
+:::{grid-item-card}  "*IMPULSION prize*"
 :columns: 9
-Intensive training in pinball ring.
+Best master thesis of the Geneva's Neuroscience program
 :::
+::::
 
+
+::::{grid} 7
+:gutter: 1
+
+:::{grid-item-card} 2023
+:columns: 3
+[UNIGE Neurocenter](https://neurocenter-unige.ch/)
+:::
+:::{grid-item-card}  "*Neurocenter First Year Master student Price*"
+:columns: 9
+Based on scientific performance, autonomy, creativity, dynamism and the number of researchers who suggested the student’s name.
+:::
 ::::
