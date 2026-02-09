@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Kim Kitsuragi'
+project = 'Nicolas Piron'
 author = 'Nicolas Piron'
 copyright = '2026, Nicolas Piron'
 
@@ -48,21 +48,16 @@ source_suffix = {
 html_theme = 'pydata_sphinx_theme'
 
 html_theme_options = {
-  "github_url": "https://github.com/vferat/sphinx-portfolio", #TODO
+  "github_url": "https://github.com/NicolasPiron",
   "icon_links": [
         {
-            "name": "X",
-            "url": "https://x.com/kim_kitsuragi", #TODO
-            "icon": "fa-brands fa-x-twitter",
-        },
-        {
             "name": "ORCID",
-            "url": "https://orcid.org/orcid-search/search?searchQuery=kim%20kitsuragi", #TODO
+            "url": "https://orcid.org/0009-0001-2715-1998",
             "icon": "fa-brands fa-orcid",
         },
         {
             "name": "LinkedIn",
-            "url": "https://www.linkedin.com/in/kim-kitsuragi-b54b88260/", #TODO
+            "url": "https://www.linkedin.com/in/nicolas-piron-396905287",
             "icon": "fa-brands fa-linkedin",
         },        
         ],
@@ -71,7 +66,7 @@ html_theme_options = {
 }
 
 html_favicon = "_static/favicon.ico"
-html_title = "Kim Kitsuragi"  #TODO
+html_title = "Nicolas Piron"
 
 html_static_path = ['_static']
 html_css_files = [
@@ -118,8 +113,8 @@ extensions += ["sphinx.ext.intersphinx"]
 # Github context
 html_context = {
     # "github_url": "https://github.com", # or your GitHub Enterprise site
-    "github_user": "vferat", #TODO
-    "github_repo": "sphinx-template",  #TODO
+    "github_user": "NicolasPiron",
+    "github_repo": "NicolasPiron.github.io", 
     "github_version": "main",
     "doc_path": "./source/",
 }
@@ -127,5 +122,5 @@ html_theme_options["use_edit_page_button"] = False
 
 # -- Referencing -------------------------------------------------------------
 extensions += ['sphinx_sitemap']
-html_baseurl = 'https://vferat.github.io' #TODO
+html_baseurl = 'https://NicolasPiron.github.io'
 html_extra_path = ["../.nojekyll"]
