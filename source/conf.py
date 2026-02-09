@@ -111,6 +111,8 @@ extensions += ['sphinx_copybutton']
 
 spelling_word_list_filename = ['spelling_wordlist.txt']
 
+exclude_patterns += ['spelling_wordlist.txt']
+
 extensions += [ 'sphinxcontrib.spelling' ]
 
 # Inter sphinx
