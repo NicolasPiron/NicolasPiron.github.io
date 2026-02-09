@@ -8,7 +8,7 @@ The project is divided into two complementary components: one using **MEG** in h
 ---
 width: 60%
 alt: My figure text
-name: my_figure
+name: fig_memory
 ---
 And here is my figure caption.
 ```
@@ -20,7 +20,7 @@ This project examines the contribution of the thalamus, specifically the **pulvi
 ---
 width: 60%
 alt: My figure text
-name: my_figure
+name: fig_pulvinar
 ---
 And here is my figure caption.
 ```
@@ -32,7 +32,7 @@ A side project investigating whether lunar phases influence sleep quality, asses
 ---
 width: 60%
 alt: My figure text
-name: my_figure
+name: my_moon
 ---
 And here is my figure caption.
 ```
