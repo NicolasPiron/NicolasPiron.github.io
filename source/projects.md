@@ -6,23 +6,23 @@ The project is divided into two complementary components: one using **MEG** in h
 
 ```{figure} _static/images/memory.png
 ---
-width: 60%
-alt: My figure text
+width: 80%
+alt: Illustration of how the brain encodes and retrieves sequential memories.
 name: fig_memory
 ---
-And here is my figure caption.
+Episodic memory format changes with time.
 ```
 
-## Pulvinar's impact on visual attentinal processes
+## Pulvinar's impact on visual attentional processes
 This project examines the contribution of the thalamus, specifically the **pulvinar**, to visual attention and perception. Using resting-state and ERP analyses of EEG data from stroke patients with pulvinar lesions, I investigate how alterations in neural activity relate to behavioral deficits in visual attention. This work extends research initiated during my Master’s degree.
 
-```{figure} _static/images/memory.png
+```{figure} _static/images/pulvinar.png
 ---
-width: 60%
-alt: My figure text
+width: 80%
+alt: Pulvinar's connexions to the visual cortex
 name: fig_pulvinar
 ---
-And here is my figure caption.
+The pulvinar's extensive connections to visual regions of the cortex.
 ```
 
 ## Moon's phase & Sleep quality
@@ -30,9 +30,9 @@ A side project investigating whether lunar phases influence sleep quality, asses
 
 ```{figure} _static/images/memory.png
 ---
-width: 60%
-alt: My figure text
-name: my_moon
+width: 50%
+alt: Effect of moon's phase impact on sleep onset. People need more time to fall alseep during full moons. 
+name: fig_moon
 ---
-And here is my figure caption.
+Results from Cajochen et al., 2013 *Current Biology*, showing a longer sleep latency during the most illuminated phase of the moon.
 ```
