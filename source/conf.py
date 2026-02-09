@@ -77,7 +77,8 @@ html_show_sourcelink = False
 # -- Sidebar Options for HTML output -----------------------------------------
 html_sidebars = {'index': ['sidebar.html'],
                  'about': ['sidebar.html'],
-                 'publications': ['sidebar.html']}
+                 'publications': ['sidebar.html'],
+                 'projects': ['sidebar.html']} # ADD for each page
 
 # -- Bibliography ------------------------------------------------------------
 extensions += ['sphinxcontrib.bibtex']
@@ -104,7 +105,12 @@ extensions += ['sphinx_tabs.tabs']
 # Copy button
 extensions += ['sphinx_copybutton']
 
+
+
 # Spelling
+
+spelling_word_list_filename = ['spelling_wordlist.txt']
+
 extensions += [ 'sphinxcontrib.spelling' ]
 
 # Inter sphinx
