@@ -1,8 +1,9 @@
 # Publications
 
-List of publication
+## First author
+Coming soon...
 
-## Papers
+## Co-authered
 ```{bibliography}
 :filter: False
 :list: bullet
@@ -10,5 +11,11 @@ List of publication
 desbordes2026temporal
 ```
 
-## Posters & Talks
-To be added
+## Posters
+```{bibliography}
+:filter: False
+:list: bullet
+
+piron2025poster1
+piron2026poster2
+```
