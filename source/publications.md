@@ -3,7 +3,7 @@
 ## First author
 Coming soon...
 
-## Co-authered
+## Co-authored
 ```{bibliography}
 :filter: False
 :list: bullet
