@@ -16,4 +16,5 @@ I am a PhD student in cognitive neuroscience.
 :hidden:
 about
 publications
+projects
 ```
