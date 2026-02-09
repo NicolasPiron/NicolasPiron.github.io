@@ -26,13 +26,13 @@ The pulvinar's extensive connections to visual regions of the cortex.
 ```
 
 ## Moon's phase & Sleep quality
-A side project investigating whether lunar phases influence sleep quality, assessed using both subjective and objective measures. The data were collected by collaborators to test unrelated hypotheses, and this project focuses on secondary data analysis and statistical evaluation. Conducted primarily as an exploratory study, with a particular interest in testing the null hypothesis.
+A side project investigating whether lunar phases influence sleep quality, assessed using both subjective and objective measures. The data were collected by collaborators to test unrelated hypotheses, and this project focuses on secondary data analysis and statistical evaluation. Conducted primarily as an exploratory study, with a particular interest in replicating old results.
 
-```{figure} _static/images/memory.png
+```{figure} _static/images/moon.png
 ---
 width: 50%
 alt: Effect of moon's phase impact on sleep onset. People need more time to fall alseep during full moons. 
 name: fig_moon
 ---
-Results from Cajochen et al., 2013 *Current Biology*, showing a longer sleep latency during the most illuminated phase of the moon.
+Results from Cajochen et al., 2013 in *Current Biology*, showing a longer sleep latency during the most illuminated phase of the moon.
 ```

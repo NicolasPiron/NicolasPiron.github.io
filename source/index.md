@@ -2,7 +2,7 @@
 myst:
     html_meta: {
         "description lang=en": "this is the official website of Nicolas Piron, Neuroscientist.",
-        "keywords": "python, Portfolio, Nicolas, Piron, github",
+        "keywords": "python, Portfolio, Nicolas, Piron, neuroscience, memory, replays",
         "property=og:locale": "en_US"
     }
 ---
