@@ -1,0 +1,35 @@
+name: Publish
+on:
+  push:
+    branches:
+    - main
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: 3.12
+      - name: Install dependencies
+        run: sudo apt update && sudo apt install -y optipng
+      - name: Setup Uv
+        uses: astral-sh/setup-uv@v7
+      - name: Install project
+        run: uv pip install --quiet --system .[doc]
+      - name: Build Sphinx documentation
+        run: make html
+      - name:  Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: ./build/html
+          clean-exclude: pr-preview
+          branch: gh-pages
+          git-config-name: 'github-actions[bot]'
+          git-config-email: 'github-actions[bot]@users.noreply.github.com'
+          single-commit: true
+          force: true
