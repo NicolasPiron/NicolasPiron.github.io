@@ -25,7 +25,7 @@ name: fig_pulvinar
 The pulvinar's extensive connections to visual regions of the cortex (Kastner et al., 2020 *Current Opinion in Neurobiology*).
 ```
 
-## Moon's phase & Sleep quality
+## Moon's phase & sleep quality
 A side project investigating whether lunar phases influence sleep quality, assessed using both subjective (sleep diaries) and objective measures (behavior & EDA during tasks). The data were collected by collaborators to test unrelated hypotheses, and this project focuses on secondary data analysis. Conducted primarily as an exploratory study, but also with a particular interest in replicating old results.
 
 ```{figure} _static/images/moon.png

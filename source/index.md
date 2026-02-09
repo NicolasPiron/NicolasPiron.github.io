@@ -8,8 +8,7 @@ myst:
 ---
 
 # Welcome to my website!
-
-I am a PhD student in cognitive neuroscience.
+In progress work. I plan to use this platform to display my projects and interests, mostly in cognitive neuroscience. 
 
 ```{toctree}
 :maxdepth: 2
