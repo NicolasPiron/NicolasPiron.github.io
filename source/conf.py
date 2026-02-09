@@ -7,8 +7,8 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'Kim Kitsuragi'
-author = 'Victor Ferat'
-copyright = '2026, Victor Ferat'
+author = 'Nicolas Piron'
+copyright = '2026, Nicolas Piron'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
