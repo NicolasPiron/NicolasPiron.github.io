@@ -1,6 +1,12 @@
 # About Me
 
-Description to be added
+I am a Swiss PhD student based in Geneva, interested in how the brain represents and processes information. Before coming to neuroscience, I was trained in psychology and philosophy of science in Lausanne. At some point, I decided that before making any theoretical claims, I needed to look more closely at the electric meat itself, so here I am.
+
+My current work mainly focuses on using brain decoding methods to gain insights into how the human brain encodes, stores, and manipulates neural representations of the external world, as well as how these representations become stabilized into generalizable knowledge. 
+
+This research is conducted in the Department of Basic Neurosciences at the University of Geneva, between the teams of [Nina Kazanina](https://www.ninakazanina.com/) and [Sophie Schwartz](https://neurocenter-unige.ch/research-groups/sophie-schwartz/), and in close collaboration with [Théo Desborde](https://scholar.google.com/citations?user=cR2ta0gAAAAJ&hl=en).
+
+I have a particular interest in reproducible science, and I actively try to work toward open practices, data sharing, and collaborative research.
 
 
 ## Work Experiences
@@ -100,7 +106,7 @@ University of Lausanne
 :::
 :::{grid-item-card}  Bachelor in Psychology
 :columns: 9
-Minor in Philosophy: mostly Philosophy of Science classes
+Minor in philosophy
 :::
 ::::
 
