@@ -8,7 +8,7 @@ myst:
 ---
 
 # Welcome to my website!
-In progress work. I plan to use this platform to display my projects and interests, mostly in cognitive neuroscience. 
+I'm happy to have you here :) I plan to use this platform to display my projects and interests, mostly in cognitive neuroscience. 
 
 ```{figure} _static/images/dive.png
 ---

@@ -29,7 +29,7 @@ Geneva
 :columns: 9
 This research project investigates episodic memory as a temporally structured process, examining how sequences are encoded and how the format of these representations is reshaped (chunked, compressed or abstracted) over time.
 - Brain decoding and cross-frequency coupling with MEG and iEEG data
-- Interest in reconstructing hippocampal activity in MEG signal
+- Interest in reconstructing hippocampal signal from MEG recordings
 :::
 ::::
 
@@ -92,14 +92,14 @@ University of Geneva
 :columns: 9
 
 - Two-year internship in [Patrik Vuilleumier's lab](https://neurocenter-unige.ch/research-groups/patrik-vuilleumier/)
-- Master thesis : "*The pulvinar orchestrates neural dynamics of visual perception*"
+- Thesis title : "*The pulvinar orchestrates neural dynamics of visual perception*"
 :::
 ::::
 
 ::::{grid} 5
 :gutter: 1
 
-:::{grid-item-card} 2018 - 2021
+:::{grid-item-card} 2018 - 2022
 :columns: 3
 
 University of Lausanne
