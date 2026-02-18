@@ -13,6 +13,12 @@ name: fig_memory
 Episodic memory format changes with time.
 ```
 
+## Synchronisation of menstrual cycles between individuals
+A side project about an understudied but highly reported phenomenon. When people who have menstrual cycles spend a significant amount of time together (for example, at home or in the workplace), their menstrual cycles may tend to become partially or fully synchronized over time. Our goal is to (1) get evidence that the phenomenon exists, (2) to see how it can be characterized and (3) what factors influence it. 
+
+
+You can participate to our screening phase by using [this link](https://formulaire.unige.ch/outils/limesurveyfac/medecine/index.php/948726?lang=en)!
+
 ## Pulvinar's impact on visual attentional processes
 This project examines the contribution of the thalamus, specifically the **pulvinar**, to visual attention and perception. Using resting-state and ERP analyses of EEG data from stroke patients with pulvinar lesions, I investigate how alterations in neural activity relate to behavioral deficits in visual attention. This work extends research initiated during my Master’s degree.
 
