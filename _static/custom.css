@@ -1,0 +1,47 @@
+@import "basic.css";
+
+/* Bio area */
+div.profile-pic {
+    margin-top: 1em;
+}
+
+div.profile-pic img {
+    border-radius: 10%;
+    width: 200px;
+    height: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+.title {
+    margin: 1em auto;
+    max-width: 220px;
+    text-align: center;
+}
+
+.name {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+/* Theme */
+/* https://pydata-sphinx-theme.readthedocs.io/en/v0.7.2/user_guide/customizing.html */
+
+html[data-theme="light"] {
+    --pst-color-primary: rgb(17, 153, 187);
+    --pst-color-text-base: rgb(0, 0, 0);
+
+    --pst-color-link:  rgb(9, 13, 214);
+    --pst-color-link-hover:  rgb(9, 13, 214);
+    --pst-color-headerlink:  rgb(9, 13, 214);
+    --pst-color-headerlink-hover:  rgb(9, 13, 214);
+    --pst-color-preformatted-text:  rgb(9, 13, 214);
+    --pst-color-preformatted-background:  rgb(255, 255, 255);
+    --pst-color-inline-code:  rgba(250, 204, 0, 0.788);
+  
+}
+
+html[data-theme="dark"] {
+    --pst-color-primary: rgb(17, 153, 187);
+    --pst-color-text-base: rgb(248, 248, 248);
+}
