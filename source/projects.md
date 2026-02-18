@@ -14,7 +14,7 @@ Episodic memory format changes with time.
 ```
 
 ## Inter-individual synchronization of menstrual cycles
-A side project about an understudied but frequently reported phenomenon. When people who have menstrual cycles spend a significant amount of time together (for example, at home or in the workplace), their menstrual cycles may tend to become partially or fully synchronized over time. Our goal is to (1) get evidence that the phenomenon exists, (2) to see how it can be characterized and (3) what factors influence it. This project is initially inspired by M/EEG data phase-coupling detection techniques. 
+A side project about an understudied but frequently reported phenomenon. When people who have menstrual cycles spend a significant amount of time together (for example, at home or in the workplace), their menstrual cycles may tend to become partially or fully synchronized over time. Our goal is to (1) gather evidence that the phenomenon exists, (2) see how it can be characterized and (3) what factors influence it. This project is initially inspired by M/EEG data phase-coupling detection techniques. 
 
 
 You can participate to the survey phase by using [this link](https://formulaire.unige.ch/outils/limesurveyfac/medecine/index.php/948726?lang=en)!
