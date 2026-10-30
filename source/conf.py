@@ -84,6 +84,25 @@ html_sidebars = {'index': ['sidebar.html'],
 extensions += ['sphinxcontrib.bibtex']
 bibtex_bibfiles = ['bibliography.bib']
 
+# Custom style: titles in bold, entries listed in the order of bibliography.bib
+from pybtex.plugin import register_plugin
+from pybtex.style.formatting.unsrt import Style as UnsrtStyle
+from pybtex.style.template import field, sentence, tag
+
+
+class BoldTitleStyle(UnsrtStyle):
+    def format_title(self, e, which_field, as_sentence=True):
+        formatted_title = tag('strong') [
+            field(which_field)
+        ]
+        if as_sentence:
+            return sentence [ formatted_title ]
+        return formatted_title
+
+
+register_plugin('pybtex.style.formatting', 'boldtitle', BoldTitleStyle)
+bibtex_default_style = 'boldtitle'
+
 
 # -- Markdown syntax extension -----------------------------------------------
 # Cards and grid

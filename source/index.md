@@ -2,7 +2,7 @@
 myst:
     html_meta: {
         "description lang=en": "this is the official website of Nicolas Piron, Neuroscientist.",
-        "keywords": "Geneva, MEG, cognitive neuroscience, UNIGE, Nicolas Piron, neuroscience, memory, replays",
+        "keywords": "Nicolas Piron, MEG, cognitive neuroscience, UNIGE, Geneva, neuroscience, memory, replays",
         "property=og:locale": "en_US"
     }
 ---

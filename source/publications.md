@@ -16,6 +16,7 @@ desbordes2026temporal
 :filter: False
 :list: bullet
 
+piron2026poster4
 piron2026poster3
 piron2025poster2
 piron2024poster1
