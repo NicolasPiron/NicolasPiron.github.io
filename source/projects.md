@@ -13,6 +13,9 @@ name: fig_memory
 Episodic memory format changes with time.
 ```
 
+## How the brain represents meaning
+A picture of a dog and the written word "dog" look nothing alike, yet both bring the same idea to mind. This project asks when, and where in the brain, the two become the same thing. Participants view images and read words from several categories of meaning (animals, cartoon characters, and so on) while their brain activity is recorded using MEG. A machine-learning classifier is trained to recognize the category from the brain signal evoked by images, then tested on whether it can recognize the same category from the signal evoked by words. It can: the brain holds representations of meaning that are shared between pictures and text, independent of the form in which the input arrived. The timing and location of these shared representations are described in [Piron et al., 2026](https://www.biorxiv.org/content/10.64898/2026.10.30.763035v1).
+
 ## Pulvinar's impact on visual attentional processes
 This project examines the contribution of the thalamus, specifically the **pulvinar**, to visual attention and perception. Using resting-state and ERP analyses of EEG data from stroke patients with pulvinar lesions, I investigate how alterations in neural activity relate to behavioral deficits in visual attention. This work extends research initiated during my Master’s degree.
 

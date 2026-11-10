@@ -7,8 +7,8 @@ myst:
     }
 ---
 
-# Welcome to my website!
-I'm happy to have you here :) I plan to use this platform to display my projects and interests, mostly in cognitive neuroscience. 
+# Welcome to my website :)
+Here I share my projects and interests, mostly in cognitive neuroscience. 
 
 ```{figure} _static/images/dive.png
 ---

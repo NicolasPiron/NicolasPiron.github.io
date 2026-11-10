@@ -1,7 +1,13 @@
 # Publications
 
 ## First author
-Coming soon...
+```{bibliography}
+:filter: False
+:list: bullet
+
+piron2026modality
+```
+
 
 ## Co-authored
 ```{bibliography}

@@ -2,7 +2,7 @@
 
 I am a Swiss PhD student based in Geneva, interested in how the brain represents and processes information. Before coming to neuroscience, I was trained in psychology and philosophy of science in Lausanne. At some point, I decided that before making any theoretical claims, I needed to look more closely at the electric meat itself, so here I am.
 
-My current work mainly focuses on using brain decoding methods to gain insights into how the human brain encodes, stores, and manipulates neural representations of the external world, as well as how these representations become stabilized into generalizable knowledge. 
+My current work mainly focuses on using brain decoding methods at the millisecond timescale to gain insights into how the human brain encodes, stores, and manipulates neural representations of the external world, as well as how these representations become stabilized into generalizable knowledge. 
 
 This research is conducted in the Department of Basic Neurosciences at the University of Geneva, between the teams of [Nina Kazanina](https://www.ninakazanina.com/) and [Sophie Schwartz](https://neurocenter-unige.ch/research-groups/sophie-schwartz/), and in close collaboration with [Théo Desborde](https://scholar.google.com/citations?user=cR2ta0gAAAAJ&hl=en).
 
@@ -112,6 +112,22 @@ Minor in philosophy
 
 
 ## Awards
+
+::::{grid} 6
+:gutter: 1
+
+:::{grid-item-card} 2026
+:columns: 3
+[FacMed Hack #1: Digital Phenotyping of Mental Health](https://facmed-hack.sparkboard.com/en/)
+:::
+:::{grid-item-card}  *Coup de Coeur* and *HPE Compute and Privacy Prize*
+:columns: 9
+For the project "*Camera to cortex: everyday markers, anchored in the brain*".
+
+Coup de Coeur: the project the audience loved the most. HPE Compute and Privacy Prize: best use of compute and privacy resources.
+:::
+::::
+
 
 ::::{grid} 6
 :gutter: 1
