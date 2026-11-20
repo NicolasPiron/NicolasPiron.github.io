@@ -1,0 +1,33 @@
+---
+myst:
+    html_meta: {
+        "description lang=en": "this is the official website of Nicolas Piron, Neuroscientist.",
+        "keywords": "Nicolas Piron, MEG, cognitive neuroscience, UNIGE, Geneva, neuroscience, memory, replays",
+        "property=og:locale": "en_US"
+    }
+---
+
+# Welcome to my website
+Here I share my projects and interests, mostly in cognitive neuroscience.
+
+```{raw} html
+<figure class="meg-figure">
+  <div class="meg-trace"></div>
+</figure>
+```
+
+```{figure} _static/images/dive.png
+---
+width: 100%
+alt: Cool diving pic.
+name: pic_dive
+---
+```
+
+```{toctree}
+:maxdepth: 2
+:hidden:
+about
+publications
+projects
+```

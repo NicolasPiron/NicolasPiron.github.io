@@ -1,0 +1,226 @@
+/* Theme: https://pydata-sphinx-theme.readthedocs.io/en/stable/user_guide/styling.html */
+
+html {
+    --pst-font-family-base: system-ui, -apple-system, "Segoe UI", sans-serif;
+    --pst-font-family-heading: var(--pst-font-family-base);
+    --pst-font-family-monospace: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+html[data-theme="light"] {
+    --pst-color-primary: #1f4e79;
+    --pst-color-secondary: #1f4e79;
+    --pst-color-text-base: #1a1a1a;
+    --pst-color-text-muted: #6b6b6b;
+    --pst-color-background: #ffffff;
+    --pst-color-on-background: #ffffff;
+    --pst-color-border: #e6e6e6;
+    --pst-color-link: #1f4e79;
+    --pst-color-link-hover: #1a1a1a;
+    --pst-color-headerlink: #1f4e79;
+    --pst-color-headerlink-hover: #1a1a1a;
+    --pst-color-inline-code: #1f4e79;
+    --trace-line: #3a3a3a;
+    --trace-muted: #9a9a9a;
+    --trace-accent: #1f4e79;
+}
+
+html[data-theme="dark"] {
+    --pst-color-primary: #8db8e0;
+    --pst-color-secondary: #8db8e0;
+    --pst-color-text-base: #e4e4e4;
+    --pst-color-text-muted: #9a9a9a;
+    --pst-color-background: #121212;
+    --pst-color-on-background: #121212;
+    --pst-color-border: #2a2a2a;
+    --pst-color-link: #8db8e0;
+    --pst-color-link-hover: #e4e4e4;
+    --pst-color-headerlink: #8db8e0;
+    --pst-color-headerlink-hover: #e4e4e4;
+    --trace-line: #cfcfcf;
+    --trace-muted: #7a7a7a;
+    --trace-accent: #8db8e0;
+}
+
+/* Typography ------------------------------------------------------- */
+.bd-article-container {
+    max-width: 48rem;
+}
+
+.bd-article p,
+.bd-article li {
+    line-height: 1.65;
+}
+
+.bd-article h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    margin-bottom: 1rem;
+}
+
+.bd-article h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 2.5rem;
+}
+
+.bd-article a {
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+}
+
+/* Header: flat, no shadow ----------------------------------------- */
+.bd-header {
+    box-shadow: none !important;
+    border-bottom: 1px solid var(--pst-color-border);
+}
+
+.bd-header .navbar-brand {
+    font-weight: 600;
+}
+
+/* Sidebar ---------------------------------------------------------- */
+.bd-sidebar-primary {
+    border-right: none;
+}
+
+.profile {
+    text-align: center;
+    padding-top: 1.5rem;
+}
+
+.profile-pic {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    object-position: center 20%;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 1rem;
+}
+
+.profile-name {
+    font-weight: 600;
+    margin: 0;
+}
+
+.profile-role {
+    font-size: .85rem;
+    color: var(--pst-color-text-muted);
+    line-height: 1.5;
+    margin: .25rem 0 0;
+}
+
+/* MEG trace (home) -------------------------------------------------- */
+figure.meg-figure {
+    margin: 2rem 0 2.5rem;
+}
+
+.meg-trace {
+    width: 100%;
+    height: 280px;
+}
+
+.meg-trace canvas {
+    display: block;
+}
+
+/* About: entries as a plain two-column list ------------------------- */
+.bd-article .sd-card,
+.bd-article .sd-card.sd-shadow-sm {
+    border: none !important;
+    box-shadow: none !important;
+    background: transparent !important;
+}
+
+.bd-article .sd-card-body {
+    padding: 0;
+}
+
+.bd-article .sd-container-fluid {
+    margin-bottom: 0 !important;
+}
+
+.bd-article .sd-container-fluid > .sd-row {
+    padding: .75rem 0;
+    border-top: 1px solid var(--pst-color-border);
+}
+
+.bd-article h2 + .sd-container-fluid > .sd-row {
+    border-top: none;
+}
+
+.bd-article .sd-col:first-child .sd-card-body {
+    font-size: .875rem;
+    color: var(--pst-color-text-muted);
+}
+
+.bd-article .sd-col:first-child .sd-card-body p {
+    margin-bottom: .25rem;
+}
+
+.bd-article .sd-col:first-child .sd-card-title {
+    font-weight: 500 !important;
+    color: var(--pst-color-text-base);
+    margin-bottom: .35rem;
+    font-variant-numeric: tabular-nums;
+}
+
+.bd-article .sd-card-title {
+    font-weight: 600 !important;
+    margin-bottom: .4rem;
+}
+
+.bd-article .sd-col:last-child .sd-card-body ul {
+    padding-left: 1.1rem;
+    margin-bottom: 0;
+}
+
+@media (max-width: 767px) {
+    .bd-article .sd-container-fluid > .sd-row > .sd-col {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+/* Publications ----------------------------------------------------- */
+.bd-article section ul:has(> li[id^="id"]) {
+    list-style: none;
+    padding-left: 0;
+}
+
+.bd-article section ul:has(> li[id^="id"]) > li {
+    margin-bottom: 1.1rem;
+}
+
+.bd-article section ul:has(> li[id^="id"]) > li p {
+    margin: 0;
+    color: var(--pst-color-text-muted);
+    font-size: .95rem;
+}
+
+.bd-article section ul:has(> li[id^="id"]) > li strong {
+    display: block;
+    color: var(--pst-color-text-base);
+    font-weight: 600;
+}
+
+/* Home photo: cropped so it doesn't dominate the page */
+#pic-dive img,
+figure#pic-dive img {
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}
+
+/* Figures ---------------------------------------------------------- */
+.bd-article figcaption {
+    font-size: .85rem;
+    color: var(--pst-color-text-muted);
+}
+
+/* Footer ----------------------------------------------------------- */
+.bd-footer {
+    border-top: 1px solid var(--pst-color-border);
+    font-size: .8rem;
+    color: var(--pst-color-text-muted);
+}
