@@ -62,7 +62,12 @@ html_theme_options = {
         },        
         ],
   "show_prev_next": False, # disable next/previous buttons
-  "navbar_persistent" : [] # disable the search button
+  "navbar_persistent" : [], # disable the search button
+  "navbar_align": "left",
+  "article_header_start": [], # no breadcrumbs
+  "footer_start": ["copyright"],
+  "footer_center": [],
+  "footer_end": [],
 }
 
 html_favicon = "_static/favicon.ico"
@@ -71,6 +76,9 @@ html_title = "Nicolas Piron"
 html_static_path = ['_static']
 html_css_files = [
     'custom.css',
+]
+html_js_files = [
+    ('meg-trace.js', {'defer': 'defer'}),
 ]
 html_show_sourcelink = False
 
@@ -92,12 +100,10 @@ from pybtex.style.template import field, sentence, tag
 
 class BoldTitleStyle(UnsrtStyle):
     def format_title(self, e, which_field, as_sentence=True):
-        formatted_title = tag('strong') [
-            field(which_field)
-        ]
+        # Period kept inside <strong> so the title can sit on its own line
         if as_sentence:
-            return sentence [ formatted_title ]
-        return formatted_title
+            return tag('strong') [ sentence [ field(which_field) ] ]
+        return tag('strong') [ field(which_field) ]
 
 
 register_plugin('pybtex.style.formatting', 'boldtitle', BoldTitleStyle)

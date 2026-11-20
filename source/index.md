@@ -7,8 +7,14 @@ myst:
     }
 ---
 
-# Welcome to my website :)
-Here I share my projects and interests, mostly in cognitive neuroscience. 
+# Welcome to my website
+Here I share my projects and interests, mostly in cognitive neuroscience.
+
+```{raw} html
+<figure class="meg-figure">
+  <div class="meg-trace"></div>
+</figure>
+```
 
 ```{figure} _static/images/dive.png
 ---
